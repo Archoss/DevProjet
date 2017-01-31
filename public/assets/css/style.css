@@ -1,0 +1,125 @@
+html, body {
+	font-family: Consolas, monaco, monospace;
+	background-color: #272822;
+	color: #F8F8F2;
+}
+/*	FORMULAIRE	*/
+form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	height: 150px;
+	width: auto;
+
+	text-align: center;
+}
+
+input{
+	margin:20px;
+}
+
+label{
+	font-size: 20px;
+	color: lightgrey;
+}
+
+input[type=text],input[type=password],input[type=email]{
+	box-shadow: inset 2px 2px 8px grey;
+	border:none;
+	width: 250px;
+	height: 30px;
+	text-align: center;
+}
+
+input[type=submit]{
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	background: linear-gradient(180deg, #666666, lightgrey);
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	border-radius: 40px;
+	border: none;
+	height: 50px;
+	width: 400px;
+}
+
+input[type=submit]:active{
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	background: linear-gradient(180deg,lightgrey , #666666);
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	border-radius: 40px;
+	border: none;
+	height: 50px;
+	width: 400px;
+}
+/*	FIN	FORMULAIRE	*/
+
+
+
+.container {
+	margin: 50px;
+}
+
+.lien {
+	width: 400px;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border:solid 1px;
+	color: #A6E22E;
+	margin: 5px;
+	background-color: none;
+	transition:all 1s;
+}
+
+.lien:hover {
+	border:solid 1px green;
+	height: 20px;
+	text-align: center;
+	color: black;
+	background-color: #A6E22E;
+	font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+	color: #A6E22E;
+}
+
+a:hover{
+	color: #F92672;
+}
+/*	TEXTE DEGRADE COMME C'EST CHOLI :D 	*/
+h1 {
+  background: -webkit-linear-gradient(black, orange,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	border-bottom:solid 2px #e69500;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 35px;
+	 background: -webkit-linear-gradient(black, #668cff,white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-weight: bolder;
+}
