@@ -4,10 +4,10 @@ namespace Controller;
 class LoginController extends \W\Controller\Controller
 {
 
-    public function log()
+    public function login()
     {
         //traiter le formulaire contact ici...
 
-        $this->show('Login/log');
+        $this->show('Login/login');
     }
 }
